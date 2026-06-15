@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="A&E">
+  <rect width="64" height="64" rx="32" fill="#0D0D0D"/>
+  <circle cx="32" cy="32" r="28" fill="#123C2F" stroke="#D6A85A" stroke-width="2"/>
+  <text x="20" y="37" fill="#FFF7EF" font-family="Georgia, serif" font-size="25" font-weight="700">A</text>
+  <text x="30" y="44" fill="#D6A85A" font-family="Georgia, serif" font-size="16" font-weight="700">&amp;</text>
+  <text x="37" y="37" fill="#8FAF8F" font-family="Georgia, serif" font-size="25" font-weight="700">E</text>
+  <path fill="#F4C7C3" d="M43 19c1-3 6-2 6 2 0 4-6 7-6 7s-6-3-6-7c0-4 5-5 6-2Z"/>
+</svg>
