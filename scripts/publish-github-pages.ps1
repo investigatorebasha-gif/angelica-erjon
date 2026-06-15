@@ -11,13 +11,22 @@ if (-not (Get-Command gh -ErrorAction SilentlyContinue)) {
 
 gh auth status | Out-Null
 
+$RepoPath = (Get-Location).Path
+function Invoke-Git {
+  git -c "safe.directory=$RepoPath" @args
+}
+
+Invoke-Git rev-parse --is-inside-work-tree | Out-Null
+
 $repoVisibility = if ($Private) { "--private" } else { "--public" }
 $owner = gh api user --jq ".login"
 
-if (-not (git remote get-url origin 2>$null)) {
-  gh repo create $RepoName $repoVisibility --source . --remote origin --push
+if (-not (Invoke-Git remote get-url origin 2>$null)) {
+  gh repo create "$owner/$RepoName" $repoVisibility
+  Invoke-Git remote add origin "https://github.com/$owner/$RepoName.git"
+  Invoke-Git push -u origin main
 } else {
-  git push -u origin main
+  Invoke-Git push -u origin main
 }
 
 $repoFullName = "$owner/$RepoName"
