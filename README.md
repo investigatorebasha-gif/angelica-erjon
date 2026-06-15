@@ -100,3 +100,19 @@ Passaggi:
 5. Fai push su `main` e attendi il workflow.
 
 Il sito sarà raggiungibile all'URL GitHub Pages mostrato nella pagina `Settings > Pages`.
+
+### Pubblicazione rapida con GitHub CLI
+
+Se `gh` è autenticato:
+
+```powershell
+.\scripts\publish-github-pages.ps1
+```
+
+Lo script crea un repository pubblico chiamato `angelica-erjon`, fa push su `main`, abilita GitHub Pages con GitHub Actions e avvia il workflow.
+
+Per usare un nome diverso:
+
+```powershell
+.\scripts\publish-github-pages.ps1 -RepoName "nome-repository"
+```
