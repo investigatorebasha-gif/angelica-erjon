@@ -6,15 +6,16 @@ function SpecialSection() {
       <div className="section-shell special-grid">
         <div className="special-copy">
           <p className="section-kicker">Perché sei speciale</p>
-          <h2 id="special-title">Angelica, sei luce anche nei colori più profondi.</h2>
+          <h2 id="special-title">Come una promessa scritta piano, resti nel cuore.</h2>
           <p>
-            Angelica, a te piace il nero, ma per me sei la luce più bella anche nei colori
-            più profondi. Sei eleganza, forza, dolcezza e casa.
+            Ci sono amori che non hanno bisogno di fare rumore: vivono nei silenzi dolci,
+            nei pensieri che tornano la sera e in quella tenerezza che sa restare anche
+            quando il mondo sembra lontano.
           </p>
           <p>
-            Dalle lettere e dai messaggi restano i dettagli che fanno davvero una storia:
-            lo sguardo a scuola, il nome sul telefono, le felpe, le videochiamate, le risate
-            improvvise e quel sentirsi al sicuro tra le braccia giuste.
+            Tu sei il verso più delicato della mia storia, la carezza nascosta tra le pagine,
+            il profumo di un futuro immaginato a bassa voce. Se l'amore fosse una poesia
+            francese, avrebbe il tuo nome scritto tra luce, pelle e destino.
           </p>
         </div>
         <div className="reasons-panel" aria-label="Motivi per cui sei speciale">

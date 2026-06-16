@@ -183,15 +183,17 @@ p {
 }
 
 .brand-name span:first-child {
-  color: var(--ivory);
+  color: var(--white);
+  text-shadow: 0 0 18px rgba(255, 255, 255, 0.1);
 }
 
 .brand-name span:nth-child(2) {
-  color: var(--accent);
+  color: var(--antique-pink);
 }
 
 .brand-name span:last-child {
-  color: var(--sage);
+  color: var(--antique-pink-soft);
+  text-shadow: 0 0 18px rgba(192, 128, 136, 0.16);
 }
 
 .nav-links {

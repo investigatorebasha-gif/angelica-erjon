@@ -90,7 +90,7 @@ export const storyPages: StoryPage[] = [
   {
     title: "Perché ti amo",
     text:
-      "Dal secondo quaderno arrivano i dettagli più teneri: lo sguardo a scuola, i messaggi appena svegli, le felpe giganti, le risate per cose che capiscono solo loro, il sentirsi casa anche senza vivere nello stesso posto.",
+      "Dal secondo quaderno arrivano i dettagli più teneri: le risate che restano addosso, la calma dopo i giorni difficili, le parole custodite piano e quel sentirsi casa anche quando il mondo resta fuori.",
     highlight: "Casa non è un posto: casa è dove sei tu.",
   },
   {
@@ -147,12 +147,12 @@ export const timelineMoments: TimelineMoment[] = [
 ];
 
 export const loveReasons = [
-  "Il modo in cui mi guardi quando arrivo a scuola.",
-  "Il fatto che mi scrivi appena ti svegli.",
-  "Come mi fai ridere quando vorrei piangere.",
-  "Le felpe giganti, i messaggi, i dettagli piccoli.",
+  "La dolcezza con cui riesci a restare anche nei giorni storti.",
+  "Il modo in cui trasformi la distanza in attesa e non in vuoto.",
+  "Come mi fai sorridere quando il cuore avrebbe voglia di tacere.",
+  "I piccoli gesti che diventano ricordi senza chiedere permesso.",
   "Il tuo essere casa anche quando siamo lontani.",
-  "Il modo in cui mi fai sentire protetta e importante.",
+  "Il modo in cui mi fai sentire protetta, scelta e importante.",
 ];
 
 export const futureCards: FutureCard[] = [

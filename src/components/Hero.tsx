@@ -49,7 +49,7 @@ function Hero() {
           <h1 id="hero-title" className="hero-logo-title">
             <img src={brandLogo} alt="ANGELICA & ERJON" />
           </h1>
-          <p className="hero-subtitle">Tra il tuo nero e il mio verde è nata la nostra storia.</p>
+          <p className="hero-subtitle">Ti amerò sempre, per sempre.</p>
           <button className="premium-button" type="button" onClick={openBook}>
             Apri il nostro libro
           </button>
