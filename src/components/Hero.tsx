@@ -1,5 +1,6 @@
 import Book from "./Book/Book";
 import heroAtmosphere from "../assets/hero-atmosphere.png";
+import brandLogo from "../assets/brand-logo-dark.png";
 import type { CSSProperties } from "react";
 
 const particles = [
@@ -45,10 +46,8 @@ function Hero() {
       <div className="hero-content section-shell">
         <div className="hero-copy">
           <p className="section-kicker">Libro digitale d'amore</p>
-          <h1 id="hero-title">
-            <span>ANGELICA</span>
-            <span>&amp;</span>
-            <span>ERJON</span>
+          <h1 id="hero-title" className="hero-logo-title">
+            <img src={brandLogo} alt="ANGELICA & ERJON" />
           </h1>
           <p className="hero-subtitle">Tra il tuo nero e il mio verde è nata la nostra storia.</p>
           <button className="premium-button" type="button" onClick={openBook}>

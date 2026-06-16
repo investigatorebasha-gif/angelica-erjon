@@ -57,6 +57,15 @@ src/styles/global.css
 
 I colori principali sono definiti in `:root`, quindi puoi cambiarli da un unico punto.
 
+Palette principale attuale:
+
+- nero: `#0D0D0D`
+- verde scuro: `#123C2F`
+- verde salvia: `#8FAF8F`
+- bianco: `#FFFFFF`
+- rosa antico: `#C08088`
+- rosso: `#9E1F36`
+
 ## Dove aggiungere immagini
 
 Metti nuove immagini in:
@@ -72,6 +81,16 @@ import nuovaFoto from "../assets/nuova-foto.jpg";
 ```
 
 La timeline contiene già spazi foto sostituibili nelle card.
+
+## Logo
+
+Il logo fornito è stato ritagliato e integrato in:
+
+- `src/assets/brand-logo-dark.png` per la hero
+- `src/assets/brand-mark-dark.png` per navbar e copertina del libro
+- `public/favicon.png` per la favicon
+
+Le versioni senza suffisso `-dark` sono i ritagli base dal file originale.
 
 ## Personalizzare il libro
 

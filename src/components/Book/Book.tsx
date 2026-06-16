@@ -3,6 +3,7 @@ import type { TouchEvent } from "react";
 import { storyPages } from "../../data/storyPages";
 import BookControls from "./BookControls";
 import BookPage from "./BookPage";
+import brandMark from "../../assets/brand-mark-dark.png";
 
 type FlipDirection = "next" | "prev";
 
@@ -154,7 +155,7 @@ function Book() {
         {!isOpen ? (
           <button className="book-cover" type="button" onClick={() => setIsOpen(true)} aria-label="Apri il libro">
             <span className="cover-monogram" aria-hidden="true">
-              A<span>&amp;</span>E
+              <img src={brandMark} alt="" />
             </span>
             <span className="cover-ornament" aria-hidden="true" />
             <span className="cover-title">La nostra storia</span>

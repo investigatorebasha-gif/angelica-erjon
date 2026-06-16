@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import brandMark from "../assets/brand-mark-dark.png";
 
 const links = [
   { href: "#home", label: "Home" },
@@ -23,9 +24,7 @@ function Navbar() {
     <header className={`navbar ${scrolled ? "navbar-scrolled" : ""}`}>
       <a className="brand" href="#home" aria-label="Vai alla home">
         <span className="brand-mark" aria-hidden="true">
-          <span>A</span>
-          <span>&amp;</span>
-          <span>E</span>
+          <img src={brandMark} alt="" />
         </span>
         <span className="brand-name">
           <span>ANGELICA</span>
